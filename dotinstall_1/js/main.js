@@ -1,13 +1,11 @@
 'use strict';
 
-// 定数 const
-// 変数 let var(古い)
+const score = 40;
 
-let price = 150;
-console.log(price * 140);
-console.log(price * 160);
-
-
-price = 150;
-console.log(price * 140);
-console.log(price * 160);
+if (score >= 80) {
+  console.log('Grate!');
+} else if (score >= 60){
+  console.log('Good');
+} else {
+  console.log('OK...');
+}
